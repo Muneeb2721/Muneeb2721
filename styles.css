@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #icon-msg {
+        width: 7vw;        position: absolute;        top: 3px;        left: -33px;
+    }
+
+    #hud {
+        position: absolute;    top: 25px;    left: 58px;    font-size: x-large;
+    }
+    
+    #btn {
+        position: absolute;   left: 257px;   top: 24px;   padding: 6px 20px;   border-radius: 10px;   background-color: snow;
+    }
+
+    .head2 {
+        position: relative;        top: 125px;        text-align: center;
+    }
+
+    .descrip {
+        position: absolute;        top: 220px;        right: 10px;
+    }
+
+    #btn1 {
+        position: absolute;        text-align: center;        padding: 13px 44px;        top: 356px;        left: 52px;        border-radius: 10px;        background-color: pink;        color: white;        font-size: large;        box-shadow: -1px 2px 5px 2px hotpink;        cursor: crosshair;
+    }
+
+    #screen-mockup {
+        width: 100%;        position: relative;        top: 119vw;
+    }
+
+    .sect {
+        display: grid;        justify-content: space-around;
+    }
+
+    .sections {
+        position: relative;        top: 145vw;
+    }
+
+    .sections1 {
+        position: relative;        top: 175vw;
+    }
+
+    #illustration-grow-together {
+        position: absolute;         top: 390vw; width: 100%;
+    }
+
+    .head2-1 {
+        position: relative;         top: 304vw;         text-align: center;
+    }
+
+    .descrip1 {
+        position: absolute;        top: 507vw;        right: 10px;
+    }
+
+    #illustration-flowing-conversation {
+        position: absolute;         top: 560vw;         width: 100%;
+    }
+
+    .head2-2 {
+        position: relative;         top: 450vw;         text-align: center;
+    }
+
+    .descrip2 {
+        position: absolute;        top: 665vw;        right: 0px;
+    }
+
+    #illustration-your-users {
+        position: absolute;         top: 705vw;         width: 100%;
+    }
+
+    .head2-3 {
+        position: relative;         top: 597vw;         text-align: center;
+    }
+
+    .descrip3 {
+        position: absolute;        top: 820vw;        right: 2px;
+    }
+
+    .head2-4 {
+        position: relative;         top: 689vw;         text-align: center;
+    }
+
+    #btn2 {
+        position: absolute;        text-align: center;        padding: 13px 44px;        top: 872vw;        left: 52px;        border-radius: 10px;        background-color: pink;        color: white;        font-size: large;        box-shadow: -1px 2px 5px 2px hotpink;        cursor: crosshair;
+    }
+
+    .footer {
+        background-color: #111135;          width: 100%;        height: 205vw;          position: absolute;       top: 948vw;
+    }
+
+    .head2-5 {
+        position: relative;         top: 13vw;          left: 10.5vw;           width: 0px;
+    }
+
+    .descrip4 {
+        position: relative;     top: 17vw;      right: 10vw;
+    }
+
+    #txt {
+        position: relative;        top: 18vw;        left: 10vw;        width: 80vw;        height: 15vw;        border-radius: 5vw;        padding: 13px;
+    }
+
+    #btn3 {
+        position: relative;        padding: 8px 35px;        top: 24vw;        left: 190px;        border-radius: 30px;        background-color: pink;        color: white;        font-size: large;        box-shadow: 0px 2px 75px 0px hotpink;        cursor: crosshair;
+    }
+
+    .head2-6 {
+        position: relative;        top: 32vw;        left: 21.5vw;        width: 0px;
+    }
+
+    .head2-6 b {
+        position: relative;    left: 7vw;
+    }
+    
+    #icon-message {
+        width: 12vw;        position: absolute;        top: 3px;        left: -33px;
+    }
+
+    #lorem {
+        position: relative;        right: 8vw;        width: 0px;        top: 35vw;
+    }
+
+    #phn {
+        width: 75%;        position: relative;        top: 35vw;        left: 12vw;
+    }
+
+    #phon {
+        width: 7.5vw;
+    }
+
+    #phone {
+        position: relative;        bottom: 5px;        font-size: larger;        left: 14px;
+    }
+
+    #eml {
+        width: 75%;        position: relative;        top: 40vw;        left: 12vw;
+    }
+
+    #emai {
+        width: 7.5vw;
+    }
+
+    #email {
+        position: relative;        bottom: 5px;        font-size: larger;        left: 14px;
+    }
+
+    #icons {
+        width: 75%;        position: relative;        top: 45vw;        left: 11vw;
+    }
+
+    #facebook, #twitter, #linkedin {
+        width: 10.5vw;     margin-right: 5vw;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    nav {
+        width: 50%;
+    }
+
+    div {
+        width: 50%;
+    }
+
+    #icon-msg {
+      width: 3vw;        position: relative;        top: 9px;        left: -7px;
+    }
+
+    #hud {
+        position: relative;        top: 33px;        left: 148px;        font-size: xx-large;
+    }
+    
+    #btn {
+       position: relative;        left: 80vw;        top: 2px;        padding: 4px 15px;        border-radius: 10px;        background-color: snow;        border-color: deeppink;
+    }
+
+    .head2-o {
+        position: relative;        top: 125px;          left: 29vw;         width: 50%;
+    }
+
+    .head2-0 {
+        position: relative;       top: 91px;        left: 47.5vw;       width: 50%;
+    }
+
+    .descrip {
+        position: relative;        top: 9vw;        left: 32vw;         width: 60%;
+    }
+
+    #btn1 {
+       position: relative;        text-align: center;        padding: 13px 44px;        top: 10vw;        left: 39vw;        border-radius: 10px;        background-color: pink;        color: white;        font-size: large;        box-shadow: -1px 2px 5px 2px hotpink;
+    }
+
+    #screen-mockup {
+        width: 50vw;        position: relative;        left: 27vw;        top: 16vw;
+    }
+    .sect {
+        display: grid;        justify-content: space-around;
+    }
+
+    .sections {
+        position: relative;        top: 18vw;        left: 2vw;
+    }
+
+    .sections1 {
+        position: relative;        top: 7vw;        left: 46vw;
+    }
+
+    #illustration-grow-together {
+        position: absolute;          width: 40%;         left: 50vw;         top: 96vw
+    }
+
+    .head2-1 {
+       position: relative;        top: 18vw;        left: 13vw; 
+    }
+
+    .descrip1 {
+        position: relative;        top: 20vw;        left: 50px;
+    }
+
+    #illustration-flowing-conversation {
+        position: absolute;        top: 141vw;        width: 40%;        left: 9vw;
+    }
+
+    .head2-2 {
+        position: relative;        top: 50vw;        left: 63vw;        width: 40%;
+    }
+
+    .descrip2 {
+       position: relative;        top: 53vw;        left: 55vw;        width: 40%;
+    }
+
+    #illustration-your-users {
+        position: absolute;        top: 173vw;        width: 40%;        left: 50vw;
+    }
+
+    .head2-3 {
+        position: relative;         top: 75vw;         text-align: center;
+    }
+
+    .descrip3 {
+        position: relative;        top: 78vw;        left: 7vw;
+    }
+
+    .head2-4 {
+        position: relative;        top: 94vw;        left: 41vw;
+    }
+
+    #btn2 {
+        position: relative;        padding: 13px 44px;        top: 100vw;        left: 41vw;        border-radius: 10px;        background-color: pink;        color: white;        font-size: large;        box-shadow: -1px 2px 5px 2px hotpink;        cursor: crosshair;
+    }
+
+    .footer {
+        background-color: #111135;          width: 200%;        height: 38vw;       position: relative;       top: 108vw;
+    }
+
+    .head2-5 {
+        position: relative;             top: 9vw;           left: 63.5vw;           width: 0px;
+    }
+
+    .descrip4 {
+        position: relative;        top: 10vw;        left: 54vw; width: 40%;
+    }
+
+    #txt {
+        position: relative;        top: 10vw;        left: 59vw;        width: 17vw;        height: 3vw;        border-radius: 1vw;        padding: 13px;
+    }
+
+    #btn3 {
+        position: relative;        padding: 8px 35px;        top: 10vw;        left: 62vw;        border-radius: 15px;        background-color: pink;        color: white;        font-size: large;        box-shadow: 0px 2px 75px 0px hotpink;
+    }
+
+    .head2-6 {
+        width: 40%;        position: relative;        left: 15vw;        bottom: 5vw;
+    }
+    
+    #icon-message {
+        width: 2.8vw;        position: absolute;        left: -3.5vw;        top: 4px;
+    }
+
+    #lorem {
+        position: relative;             left: 3vw;              width: 0px;             top: -5vw;
+    }
+
+    #phn {
+        width: 75%;         position: relative;         top: -6vw;      left: 8.7vw;
+    }
+
+    #phon {
+        width: 2vw;
+    }
+
+    #phone {
+        position: relative;        bottom: 5px;        font-size: larger;        left: 14px;
+    }
+
+    #eml {
+        width: 75%;             position: relative;             top: -4.3vw;        left: 8.63vw;
+    }
+
+    #emai {
+        width: 2vw;
+    }
+
+    #email {
+        position: relative;        bottom: 5px;        font-size: larger;        left: 14px;
+    }
+
+    #icons {
+        width: 75%;        position: relative;        top: 0vw;        left: 8vw;
+    }
+
+    #facebook, #twitter, #linkedin {
+        width: 3.5vw;     margin-right: 1vw;
+    }
+}
+ 
