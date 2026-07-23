@@ -19,9 +19,7 @@
 ### 📫 Let's Connect
 - ✉️ [Email](mailto:muneebnadeem1870@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/muneebnadeem/)
-- 🌐 [Portfolio](https://portfolio-seven-chi-gm0uq22qbs.vercel.app/)
-- 💻 [GitHub](https://github.com/Muneeb2721)
-- 📱 [WhatsApp](https://wa.me/923020450118)
+- 🌐 [Portfolio](https://muneebnadeem.vercel.app/)
 
 ---
 
