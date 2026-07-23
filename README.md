@@ -1,10 +1,10 @@
 # 👋 Hi, I'm Muneeb Nadeem
 
-🎯 **Frontend Developer** skilled in **React, Next.js, and Angular**, passionate about building clean, responsive, and user-friendly web applications.
+🎯 **Frontend Engineer** specializing in **React, Next.js, and TypeScript** to build fast, production-grade web applications. 
 
-💡 Currently learning **Node.js, Express, and MongoDB** to grow as a **Full-Stack JavaScript Developer**.
+💡 I bridge the gap between design and production by converting complex Figma files into clean, accessible, and high-performance reusable UI components.
 
-🚀 I enjoy converting Figma designs into functional UIs, writing scalable code, and continuously improving user experience through modern web technologies.
+⚙️ Currently expanding my stack with **Node.js, Express, and MongoDB** to build fully integrated, AI-powered Full-Stack SaaS solutions.
 
 ---
 
@@ -13,6 +13,13 @@
 **Styling:** Tailwind CSS · Material UI · Bootstrap · SCSS  
 **Tools:** Git · GitHub · VS Code · Vercel · Figma  
 **Learning:** Node.js · Express.js · MongoDB
+
+---
+
+## 🏆 Key Impact & Achievements
+- ⚡ **Reduced client-side CSS complexity by ~40%** during my internship at Axis Coding Solution by migrating to Tailwind CSS.
+- 📊 **Built interactive analytical dashboards** with custom date-time filters and dynamic rendering.
+- 🚀 **Independently developed SSGMindForge**, a production-grade frontend application deployed via Vercel.
 
 ---
 
